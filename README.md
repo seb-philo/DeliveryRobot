@@ -20,7 +20,26 @@ This robot used a range of sensors, including: a force sensor, GPS, IMU, a camer
 
 <img width="600" height="545" alt="Screenshot 2025-03-02 150118" src="https://github.com/user-attachments/assets/ac31ee86-6496-428f-be31-ed8de17f833c" />
 
-This C++ control system was developed both in Tinkercad to demonstrate the electronics, but also Webots to simulate function. https://github.com/seb-philo/DeliveryRobot/blob/main/Assignment2.cpp
+This C++ control system was developed both in Tinkercad (https://www.tinkercad.com/things/2UeOHRcExQb-hospital-robot/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard) to demonstrate the electronics, but also Webots to simulate function - https://github.com/seb-philo/DeliveryRobot/blob/main/Assignment2.cpp.
+
+The most significant feature of this to me, was the object recognition used with a camera. The aim was to model a member of hospital staff as a red object, and drive towards them to recieve a package for delivery. This code identified the quantity of red pixels in the frame, determined which of the left and right sides was greater, and used this to lock on and determine the direction to drive.
+
+## Number Recognition Neural Network
+Additionally, this project required the use of MATLAB, to create a neural network with a small dataset for number recognition, which could be used to identify specific hospital staff. https://github.com/seb-philo/DeliveryRobot/blob/main/NumberRecognition4.m
+
+## Frequency Sensing Circuit
+This project also involved a task to create a frequency sensing circuit, using a timing circuit and a series of amplifiers and filters, to detect a frequency to each of us. This I found a challenge, but still interesting.
 
 
-<img width="669" height="528" alt="image" src="https://github.com/user-attachments/assets/b57ef3d1-3dae-4886-ab52-8946d98ef15d" /> 
+<img width="736" height="307" alt="image" src="https://github.com/user-attachments/assets/d7a5dc22-420d-4cdf-8dde-f53580dd85d3" />
+
+## CAD Design
+Due to time constraints, the CAD design section was brief, but what was created still meets all requirements will considering real world manufacture and assembly. 
+
+<img width="1393" height="1186" alt="Screenshot 2025-03-02 141158" src="https://github.com/user-attachments/assets/ed798f88-513f-4f85-9c66-3221c61a07aa" />
+
+
+<img width="1346" height="947" alt="Screenshot 2025-03-02 200516" src="https://github.com/user-attachments/assets/5a637a0b-3d76-4e30-92d3-ed3ddcf978a0" />
+
+
+
