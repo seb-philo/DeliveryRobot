@@ -16,4 +16,11 @@ This projected involved the physical design - CAD and standard component selecti
 The simulation required a hospital room to be modelled, with objects, packages and humans modelled to interact with. A set of tasks were to be completed, including following carefully planned routes, as well as free roaming. Additionally, to search out both humans to recieve and transport packages.
 
 ## Electronics and Software.
-This robot used a range of sensors, including: a force sensor, GPS, IMU, a camera, ultrasonic distance senors and impact sensors; these were paired with electronics such as actuators and microcontrollers, and a state based control system to complete the required tasks.<img width="600" height="545" alt="Screenshot 2025-03-02 150118" src="https://github.com/user-attachments/assets/ac31ee86-6496-428f-be31-ed8de17f833c" />
+This robot used a range of sensors, including: a force sensor, GPS, IMU, a camera, ultrasonic distance senors and impact sensors; these were paired with electronics such as actuators and microcontrollers, and a state based control system to complete the required tasks.
+
+<img width="600" height="545" alt="Screenshot 2025-03-02 150118" src="https://github.com/user-attachments/assets/ac31ee86-6496-428f-be31-ed8de17f833c" />
+
+This C++ control system was developed both in Tinkercad to demonstrate the electronics, but also Webots to simulate function.
+
+
+<img width="669" height="528" alt="image" src="https://github.com/user-attachments/assets/b57ef3d1-3dae-4886-ab52-8946d98ef15d" /> 
