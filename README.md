@@ -20,9 +20,10 @@ This robot used a range of sensors, including: a force sensor, GPS, IMU, a camer
 
 <img width="600" height="545" alt="Screenshot 2025-03-02 150118" src="https://github.com/user-attachments/assets/ac31ee86-6496-428f-be31-ed8de17f833c" />
 
-This C++ control system was developed both in [Tinkercad](https://www.tinkercad.com/things/2UeOHRcExQb-hospital-robot/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard) to demonstrate the electronics, but also Webots to simulate function.
+This C++ control system was developed both in Tinkercad to demonstrate the Arduino electronics, but also Webots to simulate function.
 
 [`autonomous-delivery.cpp`](https://github.com/seb-philo/DeliveryRobot/blob/main/Assignment2.cpp)
+[`arduino-code.cpp`](https://github.com/seb-philo/delivery-robot/blob/main/arduino-code.cpp)
 
 The most significant feature of this to me, was the object recognition used with a camera. The aim was to model a member of hospital staff as a red object, and drive towards them to recieve a package for delivery. This code identified the quantity of red pixels in the frame, determined which of the left and right sides was greater, and used this to lock on and determine the direction to drive.
 
